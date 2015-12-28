@@ -27,6 +27,7 @@ class ItemController extends Controller
     public function index()
     {
         //
+        $this->data['vendor'] = Vendor::all();
         $this->data['body'] = 'public.home.index';
         return $this->output();
     }
