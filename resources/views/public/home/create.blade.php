@@ -1,6 +1,9 @@
 <div class="container-fluid">
 	{!! Form::open(array('url' => URL::to('item'), 'method' => 'post', 'class' => 'form-horizontal', 'files'=> false,'id'=>'form-item')) !!}
 		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+
+			</div>
 			@include('public.home.status')
 			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 				<div class="panel panel-default">			
